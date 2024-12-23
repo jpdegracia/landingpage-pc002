@@ -1,68 +1,89 @@
-/*CSS Reset*/
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
-
-/*with border-box border and padding is included in the total width and height*/
-/*without border-box and padding is added on top of the width and height*/
-body {
-	font-family: "Tahoma", sans-serif;
-}
-
-nav {
-	padding: 8px;
-	margin-bottom: 32px;
+#top {
+	padding: 10px;
 	text-align: center;
-	background-color: gray;
+	background-color: aqua;
 }
-
-/*margin vs padding*/
-/*margin is best used when creating space between elements*/
-/*padding is best used when creating space between an element's border and it's content*/
-
+#pic {
+	width: 300px;
+	height: 300px;
+	border-radius: 250px;
+	padding-bottom: 0px;
+}
 #landing {
-	padding-left: 300px;
+	background-color: aqua;
+	text-align: right;
+	padding-bottom: 20px;
 	padding-right: 300px;
-	padding-top: 32px;
-	padding-bottom: 32px;
-	text-align: center;
+	padding-left: 10px;
+	font-family: "Georgia", serif;
+}
+h1 {
+	font-family: "Georgia", serif;
+	margin-bottom: 20px;
+	font-size: 100px;
+}
+h2 {
+	font-family: "Palatino", serif;
+	margin-bottom: 10px;
+	font-size: 30px;
 }
 
-.header {
-	margin-top: 16px;
-	margin-bottom: 16px;
+ .example button {
+  float: right;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-left: none;
+  
+ }
+
+ #feature {
+ 	text-align: right;
+ 	background-color: lightsalmon;
+ 	padding-top: 100px;
+ 	padding-left: 10px;
+ 	text-align: center;
+ 	font-size: 50px;
+ }
+h3 {
+	font-family: "Brush Script MT", cursive;
+	margin-bottom: 10px;
+	font-size: 40px
+	border: 1px solid black;
 }
-#apply {
-	color: white;
-	background-color: slategrey;
-	padding: 8px;
-	font-size: 16px;
-	margin-top: 16px;
-	border: none;
+#feature{
+	padding-top: 50px;
+	padding-bottom: 200px;
 
 }
-
-#succeed-info {
-/* vw in CSS stands for "viewport width". It's a unit of measurement that represents a percentage of viewport width.	*/
-	padding-left: 15vw;
-	padding-right: 15vw;
-	padding-top: 32px;
-	padding-bottom: 32px;
+#pic2 {
+	padding-top: 80px;
+	width: 300px;
+	height: 300px;
+	padding-bottom: 0px;
+}
+.text {
+	padding-top: 20px;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 40px;
+	color: dodgerblue;
 }
 .card {
-	text-align: center;
-/*allows the div to appear beside each other	*/
-	display: inline-block;
-/*align elements with the tallest element in line	*/
-/*used with "inline-block" value*/
-	vertical-align: top;
-	width: 300px;
-	margin-left: 2px;
-	margin-right: 2px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-footer {
-	padding: 16px;
+#last {
+	background-color: grey;
+	font-family: "Bradley Hand" cursive;
+	font-size: 25px;
 	text-align: center;
-}
+	padding: 8px;
